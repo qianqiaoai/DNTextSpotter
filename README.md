@@ -25,7 +25,7 @@ You can use the finetuned weights from Total-Text for inference on the Inverse-T
 
 - ### Installation
 
-Python 3.8 + PyTorch 2.0.1 + CUDA 11.7 + Detectron2
+Python >= 3.8 + PyTorch >= 2.0.1 + CUDA >= 11.7 + Detectron2
 
 ```
 conda create -n dnts python=3.8 -y
@@ -33,8 +33,8 @@ conda activate dnts
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 cd detectron2
 pip install -e .
-pip install -r requirements.txt
 cd ..
+pip install -r requirements.txt
 python setup.py build develop
 ```
 
