@@ -1,10 +1,6 @@
 <h1 align="center">DNTextSpotter: Arbitrary-Shaped Scene Text Spotting via
 Improved Denoising Training</h1> 
 
-## The modified version will be released later.
-
-
-
 ## Main Results
 
 **Total-Text**
@@ -25,12 +21,12 @@ You can use the finetuned weights from Total-Text for inference on the Inverse-T
 
 - ### Installation
 
-Python >= 3.8 + PyTorch >= 2.0.1 + CUDA >= 11.7 + Detectron2
+Python = 3.8 + PyTorch >= 2.0.1 + CUDA >= 11.7 + Detectron2
 
 ```
-conda create -n dnts python=3.8 -y
+conda create -n dnts python=3.8
 conda activate dnts
-pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia
 cd detectron2
 pip install -e .
 cd ..
