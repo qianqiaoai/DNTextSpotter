@@ -58,6 +58,8 @@ python setup.py build develop
    |  |- test_images
    |  |- train_37voc.json
    |  |- train_96voc.json
+   |  |- weak_voc_new.txt
+   |  |- weak_voc_pair_list.txt
    |  └  test.json
    |- ic13
    |  |- train_images
@@ -81,6 +83,10 @@ python setup.py build develop
    |  |- train_37voc_2.json
    |  |- train_96voc_1.json
    |  └  train_96voc_2.json
+   |- inversetext
+   |  |- test_images
+   |  |- inversetext_lexicon.txt
+   |  |- inversetext_pair_list.txt
    |- evaluation
    |  |- gt_*.zip
 ```
